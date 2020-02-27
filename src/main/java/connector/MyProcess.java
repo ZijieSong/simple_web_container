@@ -69,6 +69,7 @@ public class MyProcess extends Thread {
 		} finally {
 			if (null != socket) {
 				try {
+					//关闭socket链接
 					socket.close();
 				} catch (IOException e) {
 					e.printStackTrace();
