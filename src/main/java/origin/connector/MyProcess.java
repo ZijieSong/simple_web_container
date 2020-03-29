@@ -1,8 +1,8 @@
-package connector;
+package origin.connector;
 
-import container.MyServlet;
-import container.MyServletRequest;
-import container.MyServletResponse;
+import origin.container.MyServlet;
+import origin.container.MyServletRequest;
+import origin.container.MyServletResponse;
 
 import java.io.BufferedWriter;
 import java.io.File;
